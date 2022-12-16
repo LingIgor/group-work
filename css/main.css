@@ -140,8 +140,13 @@ a {
   padding: 0;
 }
 
-.produst {
+.product {
   padding-top: 60px;
+  background-image: url(../../images/background-image-product-1x.png);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: contain;
+  height: 2000px;
 }
 
 .product__uptitle {
