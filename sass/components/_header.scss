@@ -1,0 +1,27 @@
+.header {
+    position: absolute;
+   
+}
+
+.container {
+    position:relative;
+
+}
+
+.logo::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 20px;    
+    width: 40px;
+    height: 37px;
+    background-color: yellow;
+
+}
+.header__logo {
+
+}
+.header__icon--open {
+
+}
+
