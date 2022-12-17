@@ -1,0 +1,125 @@
+.tradition {
+    padding-top: 60px;
+    padding-bottom: 64px;
+    background-color: $background;
+}
+.tradition__container {
+}
+
+.container {
+}
+
+.tradition__uptitle {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    text-align: center;
+    text-transform: uppercase;
+    color: $secondary-color;
+}
+
+.tradition__title {
+    margin-bottom: 54px;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 30px;
+    line-height: calc(38 / 30);
+    text-align: center;
+    text-transform: uppercase;
+    color: $secondary-color;
+}
+
+.tradition__cow__box {
+    position: relative;
+    display: block;
+    margin-bottom: 62px;
+    width: 279px;
+    height: 278px;
+    background-color: #EFD478;
+    border-radius: 50%;
+}
+
+.tradition_cow {
+    
+    position: absolute;
+    top: 22px;
+    width: 279px;
+    height: 278px;   
+}
+
+
+
+.tradition__discription {
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    color: $secondary-color;
+
+        &~p {
+            width: 220px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            text-align: center;
+            color: $secondary-color;
+    }
+}
+
+.tradition__link {    
+    display: block;
+    text-align: center;    
+}
+
+.tradition__btn {
+    width: 164px;
+    height: 42px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #F8D24E;
+    border: none;
+}
+
+.tradition__list {
+}
+
+.tradition__item {
+}
+
+.tradition__box {
+    margin-bottom: 16px;
+    width: 50px;
+    height: 50px;
+    background-color: #F8D24E;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.tradition__icon {
+    width: 36px;
+    height: 36px;
+}
+
+.tradition__span {
+    display: block;
+    margin-bottom: 16px;
+font-weight: 700;
+font-size: 36px;
+line-height: calc(44 / 36);
+text-align: center;
+text-transform: uppercase;
+color: $secondary-color;
+}
+
+.tradition__text {
+font-weight: 700;
+font-size: 12px;
+line-height: 1.7;
+text-align: center;
+color: $secondary-color;
+}

@@ -1,11 +1,15 @@
 body {
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.76;
 letter-spacing: 0.04em;
 color: $main-color;
+background-image: url(../images/back-mob-1x.png);
+background-position: center;
+background-repeat: repeat-y;
+background-size: contain;
 }
 
 img {
