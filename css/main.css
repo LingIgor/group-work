@@ -478,9 +478,9 @@ a {
 .footer__index::after {
   position: absolute;
   content: "";
-  top: 64px;
+  top: 160%;
   left: 0;
-  width: 216px;
+  width: 87%;
   height: 1px;
   background-color: #E1E1E1;
 }
@@ -503,9 +503,9 @@ a {
 .days__list::after {
   position: absolute;
   content: "";
-  top: 120px;
+  top: 125%;
   left: 0;
-  width: 216px;
+  width: 77%;
   height: 1px;
   background-color: #E1E1E1;
 }
@@ -537,10 +537,115 @@ a {
 }
 
 .address__link {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
-  font-size: 12px;
   line-height: 1.6;
   color: #131313;
+}
+
+.location__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 16px;
+}
+
+.location__item {
+  width: 196px;
+  height: 42px;
+}
+
+.location__link {
+  display: block;
+  width: 100%;
+  padding: 12px 0px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #000000;
+  background-color: #F8D24E;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.location__link--second {
+  background-color: transparent;
+  border: 2px solid #F8D24E;
+}
+
+.footer__uptitle {
+  margin-top: 60px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2222222222;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+
+.footer__title {
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2058823529;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+
+.soc__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 20px;
+}
+
+.soc__item {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-color: #F8D24E;
+}
+
+.contact__link {
+  display: block;
+  margin-bottom: 60px;
+  text-align: end;
+  font-weight: 700;
+  line-height: 1.86;
+  color: #131313;
+}
+
+.contact__span {
+  color: #FCFCFC;
+}
+
+.footer__text {
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52;
+  text-align: center;
+  color: #7A7A7A;
+}
+
+.footer__text::after {
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: -20px;
+  padding: 0;
+  width: calc(100% + 40px);
+  height: 1px;
+  background-color: #E1E1E1;
 }/*# sourceMappingURL=main.css.map */
